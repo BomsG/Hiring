@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiring</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-green-50 lg:mt-10">
+    <nav class="relative py-4 flex justify-between items-center lg:mx-10">
+      <h1 class="font-semibold text-2xl ml-5">
+        LO<span class="text-orange-500">REM</span>
+      </h1>
+      <div class="lg:hidden hamburger">
+        <button class="navbar-burger flex items-center text-orange-700 p-3">
+          <svg
+            class="block h-4 w-4 fill-current"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg>
+        </button>
+      </div>
+      <ul
+        class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6"
+      >
+        <li class="mx-3 font-semibold text-gray-400 hover:text-orange-200">
+          <a href="#">Home</a>
+        </li>
+        <li class="mx-3 font-semibold text-gray-400 hover:text-orange-200">
+          <a href="#">About Us</a>
+        </li>
+        <li class="mx-3 font-semibold text-gray-400 hover:text-orange-200">
+          <a href="#">Services</a>
+        </li>
+        <li class="mx-3 font-semibold text-gray-400 hover:text-orange-200">
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
+      <a
+        class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 hover:bg-gray-100 text-sm text-gray-900 font-bold border hover:bg-green-200 border-green-600 rounded-xl transition duration-200"
+        href="#"
+        >Search</a
+      >
+      <a
+        class="hidden lg:inline-block py-2 px-6 bg-green-700 hover:bg-green-100 text-sm text-white font-bold rounded-xl transition duration-200"
+        href="#"
+        >Sign in</a
+      >
+    </nav>
+    <div class="navbar-menu relative z-50 hidden text-center mx-10">
+      <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+      <nav
+        class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto"
+      >
+        <div class="flex items-center mb-8">
+          <a class="mr-auto text-3xl font-bold leading-none" href="#">
+            <h1 class="font-semibold text-2xl">
+              LO<span class="text-orange-500">REM</span>
+            </h1>
+          </a>
+          <button class="navbar-close">
+            <svg
+              class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div>
+          <ul>
+            <li class="mb-1">
+              <a
+                class="block p-4 text-sm font-semibold text-gray-400 hover:bg-orange-50 hover:text-orange-600 rounded"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="mb-1">
+              <a
+                class="block p-4 text-sm font-semibold text-gray-400 hover:bg-orange-50 hover:text-orange-600 rounded"
+                href="#"
+                >About Us</a
+              >
+            </li>
+            <li class="mb-1">
+              <a
+                class="block p-4 text-sm font-semibold text-gray-400 hover:bg-orange-50 hover:text-orange-600 rounded"
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li class="mb-1">
+              <a
+                class="block p-4 text-sm font-semibold text-gray-400 hover:text-orange-600 hover:bg-orange-50 rounded"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mt-auto">
+          <div class="pt-6">
+            <a
+              class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none border border-green-600 hover:bg-green-200 rounded-xl"
+              href="#"
+              >Search</a
+            >
+            <a
+              class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-700 hover:bg-green-200 rounded-xl"
+              href="#"
+              >Sign in</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="hero md:mx-10 lg:mx-20 flex flex-wrap">
+      <div
+        class="hero-content mx-20 w-[500px] md:w-[350px] lg:w-[500px] md:mx-0 text-center lg:text-left items-center"
+      >
+        <h2 class="text-orange-500 font-semibold text-xl pb-3 mt-20">
+          Hire Freelancers
+        </h2>
+        <h3
+          class="text-4xl lg:text-5xl md:text-5xl font-semibold text-gray-700 pb-3"
+        >
+          Hire Online For Half The Cost
+        </h3>
+        <p class="text-sm lg:text-xl md:text-xl">
+          Hire the Best Freelancer Professionals From the Worlds Largest
+          Marketplace
+        </p>
+        <div class="flex mt-10 btn">
+          <button
+            class="bg-green-700 text-white py-3 px-5 text-sm lg:text-xl md:text-xl hover:bg-green-100 transition ease-in-out hover:scale-110 mr-4 md:mx-3"
+          >
+            Find Freelancers
+          </button>
+          <div class="flex">
+            <button
+              class="border border-green-600 flex items-center py-3 pr-5 text-xs lg:text-xl md:text-xl hover:bg-green-200 transition ease-in-out hover:scale-110 md:mx-4"
+            >
+              <img src="./images/bi_play-fill.png" class="mx-3" />
+              Watch Videos
+              <img src="./images/icon right.png" class="mx-1" />
+            </button>
+          </div>
+        </div>
+        <div class="py-5 mx-auto">
+          <img src="./images/socials.png" class="items-center mx-20 lg:mx-0" />
+        </div>
+      </div>
+      <div class="w-[500px] md:w-[350px] lg:w-[500px] md:mx-0">
+        <img src="./images/main-img.png" class="relative main-img" />
+      </div>
+    </div>
+    <div class="text-center">
+      <h2 class="text-center my-10 text-orange-500 font-bold">
+        Trusted by 5k businesses
+      </h2>
+      <img
+        src="./images/Frame54.png"
+        class="items-center mx-auto w-[400px] lg:w-[700px]"
+      />
+      <h3 class="text-orange-500 mt-20 text-xl font-bold">Our Services</h3>
+      <h2 class="text-2xl">Explore market place</h2>
+      <p class="text-xl pt-3b text-xs">
+        Hire the Best Freelancer Professionals From the Worlds<br />
+        Largest Marketplace
+      </p>
+    </div>
+    <div
+      class="grid grid-cols-2 gap-4 place-items-center container lg:grid-cols-4 md:grid-cols-3 mx-auto py-10"
+    >
+      <div
+        class="bg-white mx-3 drop-shadow-md rounded-xl py-5 pl-5 w-[200px] lg:w-full h-[150px] hover:scale-110 hover:bg-green-100"
+      >
+        <img src="./images/Frame43.png" />
+        <h2 class="font-bold">Design and Creative</h2>
+        <p class="text-xs">50 Available Talents</p>
+      </div>
+      <div
+        class="bg-white mx-3 drop-shadow-md rounded-xl pl-5 py-5 w-[200px] lg:w-full h-[150px] hover:scale-110 hover:bg-green-100"
+      >
+        <img src="./images/Frame44.png" />
+        <h2 class="font-bold">Back-End Development</h2>
+        <p class="text-xs">72 Available Talents</p>
+      </div>
+      <div
+        class="bg-white mx-3 drop-shadow-md rounded-xl pl-5 py-5 w-[200px] lg:w-full h-[150px] hover:scale-110 hover:bg-green-100"
+      >
+        <img src="./images/Frame45.png" />
+        <h2 class="font-bold">Customer Support</h2>
+        <p class="text-xs">35 Available Talents</p>
+      </div>
+      <div
+        class="bg-white mx-3 drop-shadow-md rounded-xl pl-5 py-5 w-[200px] lg:w-full h-[150px] hover:scale-110 hover:bg-green-100"
+      >
+        <img src="./images/Frame46.png" />
+        <h2 class="font-bold">CMS Development</h2>
+        <p class="text-xs">50 Available Talents</p>
+      </div>
+      <div
+        class="bg-white mx-3 drop-shadow-md rounded-xl pl-5 py-5 w-[200px] lg:w-full h-[150px] hover:scale-110 hover:bg-green-100"
+      >
+        <img src="./images/Frame47 (1).png" />
+        <h2 class="font-bold">Sales & Marketing</h2>
+        <p class="text-xs">72 Available Talents</p>
+      </div>
+      <div
+        class="bg-white mx-3 drop-shadow-md rounded-xl pl-5 py-5 w-[200px] lg:w-full h-[150px] hover:scale-110 hover:bg-green-100"
+      >
+        <img src="./images/Frame48.png" />
+        <h2 class="font-bold">Writing & Translation</h2>
+        <p class="text-xs">90 Available Talents</p>
+      </div>
+      <div
+        class="bg-white mx-3 drop-shadow-md rounded-xl pl-5 py-5 w-[200px] lg:w-full h-[150px] hover:scale-110 hover:bg-green-100"
+      >
+        <img src="./images/Frame49.png" />
+        <h2 class="font-bold">DevOps Engineering</h2>
+        <p class="text-xs">100+ Available Talents</p>
+      </div>
+      <div
+        class="mx-3 drop-shadow-md rounded-xl pl-5 py-5 w-[200px] h-[150px] bg-green-700 drop-shadow-md rounded-xl relative hover:scale-110 hover:bg-green-100"
+      >
+        <img
+          src="./images/Group39.png"
+          class="absolute w-[100px] lg:w-full right-5"
+        />
+        <h2 class="text-white pt-10 font-bold">+5 more</h2>
+        <p class="text-white font-bold">View all categories</p>
+      </div>
+    </div>
+    <div class="text-center my-10">
+      <h2 class="text-orange-500 font-bold text-xl">How it works</h2>
+      <h3 class="text-2xl">Lets work you through our hiring process</h3>
+    </div>
+    <div
+      class="grid grid-cols-2 gap-3 lg:grid-cols-4 mx-20 my-20 justify-center items-center"
+    >
+      <div class="m-3 w-full w-full">
+        <img src="./images/Group.png" />
+        <h2>Tell us your needs</h2>
+        <p>Tell us what you need in seconds.</p>
+      </div>
+      <div class="m-3 w-full">
+        <img src="./images/Group18.png" />
+        <h2>Choose Freelancer</h2>
+        <p>Get first bid in seconds from the best freelancers.</p>
+      </div>
+      <div class="m-3 w-full">
+        <img src="./images/carbon_tropical-storm-model-tracks.png" />
+        <h2>Track Process</h2>
+        <p>Chat with freelancer 24/7 and review thei work.</p>
+      </div>
+      <div class="m-3 w-full">
+        <img src="./images/Vector(8).png" />
+        <h2>Pay Safely</h2>
+        <p>Only Pay when you are completely satisfird.</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 h-10 w-full h-full lg:grid-cols-2">
+      <img src="./images/Frame33.png" class="w-full" />
+      <div class="bg-green-700 relative text-white p-20">
+        <img src="./images/Group39.png" class="absolute right-5 top-0" />
+        <h2 class="text-2xl font-bold pb-4 pt-10">Get Hired</h2>
+        <p>
+          Find lucrative jobs from top companies, consectetur<br />
+          adipiscing elit. Ut nec viverra enim massa adipiscing<br />
+          amet eget amet.
+        </p>
+        <button
+          class="bg-white text-black py-2 px-4 rounded-xl mt-10 font-bold hover:bg-green-100"
+        >
+          find Freelancers
+        </button>
+      </div>
+    </div>
+
+    <div class="text-center my-10">
+      <h2 class="text-orange-500 font-bold text-xl">Our testimonie</h2>
+      <h3 class="text-2xl">What they say about us</h3>
+    </div>
+    <div
+      class="grid grid-cols-1 lg:grid-cols-3 mx-auto gap-3 place-items-center"
+    >
+      <img src="./images/Frame34.png" class="w-[400px] lg:w-full" />
+      <img src="./images/Frame35.png" class="w-[400px] lg:w-full" />
+      <img src="./images/Frame36.png" class="w-[400px] lg:w-full" />
+    </div>
+
+    <div class="text-center my-10">
+      <h2 class="text-orange-500 font-bold text-xl">Other Services</h2>
+      <h3 class="text-2xl">Other freelance skills available</h3>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 lg:grid-cols-4 place-items-center pb-20">
+      <h3 class="w-[100px]">
+        <b>Photography</b> Lorem ipsum Lorem ipsum Lorem ipsum
+      </h3>
+
+      <h3 class="w-[100px]">
+        <b>Photoshop </b>Lorem ipsum Lorem ipsum Lorem ipsum
+      </h3>
+
+      <h3 class="w-[100px]">
+        <b>Music Management</b> Lorem ipsum Lorem ipsum Lorem ipsum
+      </h3>
+
+      <h3 class="w-[100px]">
+        <b>Poster Design</b> Lorem ipsum Lorem ipsum Lorem ipsum
+      </h3>
+    </div>
+
+    <div
+      class="bg-green-800 mt-20 grid grid-cols-1 gap-3 lg:grid-cols-4 text-white w-[100%] px-20 py-20"
+    >
+      <div class="">
+        <h2 class="font-bold pb-5">Keep In touch With Us</h2>
+        <p class="pb-5">
+          Subscribe to our monthly newsletter. We provide you with newfreelance
+          uodatesevery week.
+        </p>
+        <input
+          type="Email"
+          placeholder="Enter Email Address"
+          class="py-2 pr-5 mb-5 rounded text-black"
+        />
+        <button
+          type="text"
+          class="py-2 px-4 bg-white text-black font-semibold rounded hover:bg-green-100"
+        >
+          Send Message
+        </button>
+        <img src="./images/socials.png" class="pt-5" />
+      </div>
+      <div class="w-full pt-5">
+        <h2 class="font-bold">The group</h2>
+        <ul class="list-none">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Shop with Us</li>
+          <li>Connect Us</li>
+        </ul>
+      </div>
+      <div class="w-full pt-5">
+        <h2 class="font-bold">More</h2>
+        <ul class="list-none">
+          <li>Current</li>
+          <li>Franchaise</li>
+          <li>Location</li>
+        </ul>
+      </div>
+      <div class="w-full pt-5">
+        <h2 class="font-bold">Help</h2>
+        <ul class="list-none">
+          <li>Feedback form</li>
+          <li>Privacy policy</li>
+          <li>Terms of use</li>
+        </ul>
+      </div>
+      <h2 class="text-center pt-20 font-bold">Copyright Lorem @2021</h2>
+    </div>
+  </body>
+</html>
